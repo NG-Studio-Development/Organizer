@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/tabsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_margin="0dp">
+        <!-- android:background="@drawable/tab_bg_selector" -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivIcon"
+            android:src="@drawable/ic_launcher"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <View android:layout_width="fill_parent"
+        android:id="@+id/viewBottomLine"
+        android:layout_height="4dp"
+
+        android:layout_below="@+id/ivIcon" />
+<!-- android:background="@drawable/color_line_tab_menu" -->
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:id="@+id/groupHandleTask">
+        <item
+            android:id="@+id/actionEditTask"
+            android:icon="@android:drawable/ic_dialog_email"
+            app:showAsAction="always"
+            android:title="TEMP_HARD_CODE">
+        </item>
+
+        <item
+            android:id="@+id/actionRemoveTask"
+            android:icon="@android:drawable/ic_delete"
+            app:showAsAction="always"
+            android:title="TEMP_HARD_CODE">
+        </item>
+    </group>
+</menu>
